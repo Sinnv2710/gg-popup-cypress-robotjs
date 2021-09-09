@@ -1,0 +1,48 @@
+{
+  "baseUrl": "",
+  "video": false,
+  "defaultCommandTimeout": 200000,
+  "requestTimeout": 200000,
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "screenshotOnRunFailure": true,
+  "trashAssetsBeforeRuns": false,
+  "testFiles": "**/*.spec.js",
+  "supportFile": "cypress/support/index.js",
+  "chromeWebSecurity": false,
+  "viewportHeight": 700,
+  "viewportWidth": 1382,
+  "watchForFileChanges": false,
+  "experimentalSessionSupport": true,
+  "env": {
+    "cypress-plugin-snapshots": {
+      "autoCleanUp": true,
+      "autopassNewSnapshots": false,
+      "diffLines": 3,
+      "excludeFields": [],
+      "ignoreExtraArrayItems": false,
+      "ignoreExtraFields": false,
+      "normalizeJson": true,
+      "prettier": true,
+      "imageConfig": {
+        "createDiffImage": true,
+        "resizeDevicePixelRatio": false,
+        "threshold": 1,
+        "thresholdType": "percent"
+      },
+      "screenshotConfig": {
+        "blackout": [],
+        "capture": "viewport",
+        "clip": null,
+        "disableTimersAndAnimations": true,
+        "log": true,
+        "scale": false,
+        "timeout": 30000
+      },
+      "serverEnabled": true,
+      "serverHost": "localhost",
+      "serverPort": 2121,
+      "updateSnapshots": false,
+      "backgroundBlend": "difference"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:robot": "node ./cypress/support/robot.js"
+  },
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "robotjs": "^0.6.0"
+  }
+}
